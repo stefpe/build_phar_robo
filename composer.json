@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "consolidation/robo": "^1.4"
+  },
+  "autoload":{
+    "psr-4":{
+      "MyRunner\\":"src"
+    }
+  }
+}
